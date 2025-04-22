@@ -1,0 +1,74 @@
+Trabajo Práctico N°01 - Unidad 2
+Diccionario de Datos
+
+Consigna 1: Lista de contactos
+
+ De una lista de contactos, 5 datos relevantes serían:
+1.	Nombre: fundamental para identificar al contacto.
+2.	Número de teléfono: necesario para poder contactarnos de manera telefónica.
+3.	Correo electrónico: útil al momento de enviar algún archivo o documentación importante.
+4.	Dirección: es un dato importante ya que nos permite saber a donde dirigirnos en caso de ser necesario enviar algo de manera física al contacto.
+5.	Fecha de nacimiento: dato útil para no pasar por alto la fecha de cumpleaños del contacto.
+
+En un diccionario de datos lo ordenaríamos de esta manera:
+
+Columna 1:
+	Título: nombre
+	Descripción: Este campo contiene el nombre del contacto
+	Tipo de datos: string
+	Longitud: 50
+    Formato: Iniciar con mayúscula y sin números o caracteres especiales
+    Valores permitidos: sólo caracteres.
+Columna 2:
+	Título: número de teléfono
+	Descripción: Este campo contiene el número de teléfono del contacto
+	Tipo de datos: string
+	Longitud: 20
+    Formato: Puede incluir el símbolo "+", guiones o paréntesis
+    Valores permitidos: numéricos y algunos símbolos para números de teléfono
+Columna 3:
+	Título: correo
+	Descripción: Este campo contiene el email del contacto
+	Tipo de datos: string
+	Longitud: 50
+    Formato: Debe tener el símbolo "@" que delimita el nombre del correo del dominio
+    Valores permitidos: caracteres, números y/o caracteres especiales
+Columna 4:
+	Título: dirección
+	Descripción: Este campo contiene el domicilio del contacto
+	Tipo de datos: string
+	Longitud: 50
+    Formato: Iniciar con el nombre de la calle seguido de la altitud
+    Valores permitidos: caracteres y numéricos
+Columna 5:
+	Título: fecha
+	Descripción: Este campo contiene la fecha de cumpleaños del contacto
+	Tipo de datos: date 
+    Formato: DD/MM/AAAA (dia/mes/año)
+    Valores permitidos: numéricos
+
+Consigna 2: Préstamos de libros de biblioteca
+
+Columna 1:
+    Título: libros
+    Descripción: Este campo contiene el nombre del libro prestado
+    Tipo de datos: string
+    Longitud: 80
+    Formato: El nombre del libro puede contener letras, números, y caracteres especiales como comillas o guiones
+    Valores permitidos: caracteres, numéricos y otros caracteres especiales
+
+Columna 2:
+    Título: usuarios
+    Descripción: Este campo almacena el nombre de la persona que hizo el préstamo del libro
+    Tipo de datos: string
+    Longitud: 50
+    Formato: Iniciar con mayúscula y no hacer uso de números o caracteres especiales
+    Valores permitidos: caracteres
+
+Columna 3:
+    Título: préstamos
+    Descripción: Este campo va almacena la fecha en que vence el préstamo
+    Tipo de datos: date
+    Formato: DD/MM/AAAA (dia/mes/año)
+    Valores permitidos: numéricos
+

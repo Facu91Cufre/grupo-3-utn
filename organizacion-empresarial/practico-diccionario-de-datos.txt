@@ -72,3 +72,40 @@ Columna 3:
     Formato: DD/MM/AAAA (dia/mes/año)
     Valores permitidos: numéricos
 
+Consigna 3: Asistencia estudiante
+
+Columna 1:
+    Título: nombre
+    Descripción: Este campo contiene el nombre del estudiante
+    Tipo de datos: string
+    Longitud: 50
+    Formato: Iniciar con mayúscula y no usar valores numéricos o caracteres especiales
+    Valores permitidos: caracteres
+
+Columna 2:
+    Título: fecha
+    Descripción: Este campo va a almacenar cada una de las fechas de cursada
+    Tipo de datos: date
+    Formato: DD/MM/AAAA (dia/mes/año)
+    Valores permitidos: numéricos
+
+Columna 3:
+    Título: Presente/ausente
+    Descripción: Este campo almacenará la condición del estudiante (presente o ausente)
+    Tipo de datos: string
+    Longitud: 8
+    Formato: Utilizar únicamente caracteres y las palabras "presente" o "ausente".
+    Valores permitidos: "presente" o "ausente".
+
+Consigna 4: dato e información
+
+Dato se podría decir que es valor aislado que por sí solo no nos transmite nada, como podría ser "perro". La información en cambio es este dato contextualizado lo cual nos aporta un nuevo conocimiento.
+3 ejemplos de datos tranformados en información:
+1. Dato: 42
+   Información: En el mes de abril se vendieron 42 remeras.
+
+2. Dato: "perro" y 155
+   Información: En lo que va del año la mayor cantidad de consultas en la veterinaria fue de perros con un total de 155 casos.
+
+3. Dato: "mujeres" y 54%
+   Información: En la comisión 12 de la Tecnicatura el 54% de los alumnos son mujeres.
